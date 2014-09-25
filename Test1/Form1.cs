@@ -15,5 +15,11 @@ namespace Test1
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            string showThis = "Shown";
+            lblTest.Text = showThis;
+        }
     }
 }
